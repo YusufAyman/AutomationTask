@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-20T04:25:13.505Z",
+    "end": "2022-03-20T04:26:03.660Z",
+    "duration": 50155,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f2aeca53-7d6d-425b-8ea3-97bc5e305fc5",
+      "title": "",
+      "fullFile": "cypress/integration/Google_Test/Search_Test.js",
+      "file": "cypress/integration/Google_Test/Search_Test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ca6719c5-8868-4270-9c39-4c59ac98a9dd",
+          "title": "SearchingTask",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "EndToEndSearchingScenario",
+              "fullTitle": "SearchingTask EndToEndSearchingScenario",
+              "timedOut": null,
+              "duration": 47909,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"\\\\Google_Test\\\\Search_Test.js\\\\SearchingTask -- EndToEndSearchingScenario.png\"\n      },\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"\\\\Google_Test\\\\Search_Test.js\\\\SearchingTask -- EndToEndSearchingScenario (1).png\"\n      },\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"\\\\Google_Test\\\\Search_Test.js\\\\SearchingTask -- EndToEndSearchingScenario (2).png\"\n      },\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"\\\\Google_Test\\\\Search_Test.js\\\\SearchingTask -- EndToEndSearchingScenario (3).png\"\n      },\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"\\\\Google_Test\\\\Search_Test.js\\\\SearchingTask -- EndToEndSearchingScenario (4).png\"\n      },\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"\\\\Google_Test\\\\Search_Test.js\\\\SearchingTask -- EndToEndSearchingScenario (5).png\"\n      },\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"\\\\Google_Test\\\\Search_Test.js\\\\SearchingTask -- EndToEndSearchingScenario (6).png\"\n      },\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"\\\\Google_Test\\\\Search_Test.js\\\\SearchingTask -- EndToEndSearchingScenario (7).png\"\n      },\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"\\\\Google_Test\\\\Search_Test.js\\\\SearchingTask -- EndToEndSearchingScenario (8).png\"\n      },\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"\\\\Google_Test\\\\Search_Test.js\\\\SearchingTask -- EndToEndSearchingScenario (9).png\"\n      },\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"\\\\Google_Test\\\\Search_Test.js\\\\SearchingTask -- EndToEndSearchingScenario (10).png\"\n      }\n    ]\n  ]\n}",
+              "code": "a.ValidateURL();\na.CheckingLanguage();\na.CheckSearachBoxClickable();\na.CheckingSearchFormat();\na.InvalidSearchKeyword();\na.ValidateInvalidSearch();\na.WrongKeyword();\na.ValidateWrongSearch();\na.AutoSuggestion();\na.SearchForKeyword();\na.ValidateResults();",
+              "err": {},
+              "uuid": "3f2b17c5-c2fc-42de-ae77-4e3ea0451693",
+              "parentUUID": "ca6719c5-8868-4270-9c39-4c59ac98a9dd",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "APISearchResponseCode",
+              "fullTitle": "SearchingTask APISearchResponseCode",
+              "timedOut": null,
+              "duration": 2005,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"\\\\Google_Test\\\\Search_Test.js\\\\SearchingTask -- APISearchResponseCode.png\"\n      }\n    ]\n  ]\n}",
+              "code": "a.CheckResponseCode();",
+              "err": {},
+              "uuid": "dd5c2ca0-f91c-4cc5-bc2b-aeba8eb3168b",
+              "parentUUID": "ca6719c5-8868-4270-9c39-4c59ac98a9dd",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3f2b17c5-c2fc-42de-ae77-4e3ea0451693",
+            "dd5c2ca0-f91c-4cc5-bc2b-aeba8eb3168b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 49914,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true
+      },
+      "version": "6.1.1"
+    }
+  }
+}

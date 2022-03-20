@@ -1,0 +1,41 @@
+{
+
+    "Language": "#SIvCob > a",
+
+    "SearcchBox1": ".gLFyf",
+
+    "SearchBox2": "input.gLFyf",
+
+    "SearchButton1": ".FPdoLc > center > .gNO89b",
+
+    "SearchButton2": ".zgAlFc > .z1asCe > svg",
+
+    "FormatKeyword": "em",
+
+    "InvalidSearch":
+    {
+        "ShowingResultsFor": "span.gL9Hy",
+        "CorrectLink": "#fprsl.gL9Hy"
+    },
+
+    "WrongSearch":
+    {
+        "DidYouMean": ".d2IKib",
+        "CorrectLink": "a.gL9Hy"
+    },
+    
+    "AutoSuggestion":
+    {
+        "Suggestion": ".sbre > .eIPGRd > .pcTkSc > .wM6W7d > span",
+        "data": ".wwUB2c > span"
+    },
+
+    "ValidateResults":
+    {
+        "url": ".B1uW2d > .ellip",
+        "CompanyName": ".qrShPb > span",
+        "CompanyType": ".wwUB2c > span",
+        "Information": ".kno-rdesc > :nth-child(2)"
+    }
+
+}

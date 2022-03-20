@@ -1,0 +1,63 @@
+{
+    "Data": {
+        
+        "APIURL": "https://www.google.com/complete/search?q=instabug&cp=0&client=mobile-gws-wiz-on-focus-serp&xssi=t&hl=en-EG&authuser=0&pq=Instabug&psi=j5Y2YsGdDP3JlAaAu4uIDw.1647744656098&ofp=EAE&dpr=2.0000000298023224",
+
+        "Language":
+        {
+            "ArabicVersion": "English",
+            "EnglishVersion": "العربية"
+        },
+
+        "TestCases": [
+            "OpenURL",
+            "CheckSearachBoxClickable",
+            "CheckingSearchFormat",
+            "InvalidSearchKeyword",
+            "ValidateInvalidSearch",
+            "WrongKeyword",
+            "ValidateWrongSearch",
+            "AutoSuggestion",
+            "SearchForKeyword",
+            "ValidateResults",
+            "CheckingResponseCode"
+        ],
+        "OpenURL": {
+            "URL": "https://www.google.com/"
+        },
+
+        "CheckingSearchFormat": {
+            "Format": "Asa!`ال3.@*=`?"
+        },
+
+        "InvalidSearchKeyword": {
+            "InvalidKeyword": "Instbug",
+            "CorrectWord": "Showing results for"
+        },
+
+        "WrongKeyword": {
+            "Wrongkeyword": "automaton test",
+            "RightWord": "Did you mean:"
+        },
+
+        "AutoSuggestion": {
+            "Auto": "yout",
+            "Type": "Video sharing company"
+        },
+
+        "SearchForKeyword": {
+            "Keyword": "Instabug"
+        },
+
+        "ValidateResults": {
+            "url": "instabug.com",
+            "CompanyName": "Instabug",
+            "CompanyType": "Software company",
+            "Information1": "Instabug is a software company that provides bug reporting, app performance monitoring"   
+        },
+
+        "CheckingResponseCode": {
+            "StatusCode": 200
+        }
+    }
+}
